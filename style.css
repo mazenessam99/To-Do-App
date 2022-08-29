@@ -1,0 +1,99 @@
+
+body{
+
+    background-color: rgb(247, 198, 244);
+}
+
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+     -webkit-transform: translate(-50%,-50%);
+     -moz-transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%,-50%);
+     -o-transform: translate(-50%,-50%);
+    /*margin-top: 300px;
+    margin-left: 690px;
+    */
+}
+
+#enter{
+    width: 300px;
+    height: 30px;
+    border: solid 4px;
+    border-radius: 15px;
+    border-color: blueviolet;
+    background-color: rgba(245, 207, 245, 0.969);
+    padding-left: 20px;
+    color:black ;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#btnAdd{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(195, 43, 226);
+    font-weight: bold;
+    color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#btnAdd:hover{
+    background-color: rgb(179, 109, 183);
+}
+
+
+.taskDone{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+    margin: 7px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 320px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.delete,.done{
+    position: relative;
+    background-color:rgb(224, 145, 232);
+    border-radius: 12px;
+    border: none;
+    display: inline;
+    padding: 8px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    right: -130px;
+   
+    
+
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.delete:hover,.done:hover{
+    background-color: rgb(187, 96, 197);
+    color: black;
+}
+
+ 
+
+
